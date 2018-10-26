@@ -91,7 +91,7 @@ ExpeditionHelper::ExpeditionHelper(int *factors) {
       maximum_expeditions_.push_back(i);
     }
   }  // fin.is_open()
-}
+} // ExpeditionHelper()
 
 void ExpeditionHelper::nCr(int offset, int k) {
   if (k == 0) {  // If at the end of the combination
@@ -154,7 +154,7 @@ void ExpeditionHelper::nCr(int offset, int k) {
     nCr(i + 1, k - 1);
     buffer_.pop_back();
   }
-}
+} // nCr()
 
 void ExpeditionHelper::ResourceGain() const {
   unsigned int fuel_fetched = 0;
@@ -215,4 +215,4 @@ void ExpeditionHelper::ResourceGain() const {
     cout << "Remember to do daily quests. You can easily gain around 10" << endl
          << "buckets per day from them." << endl << endl;
   }
-}
+} // ResourceGain()

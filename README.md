@@ -29,3 +29,17 @@ tool.
     StackOverflow user dorserg, for recursive calculation of combinations
     kancollepoi.weebly.com, for original idea
     Luke Sathrum for StringToInt function
+    Google for the style checking python script
+
+## Reading expedition_tables.txt
+
+Should it be necessary to read expedition_tables.txt, each row corresponds to
+an expedition. 1-40 are expedtions 1-40, 41-43 are expeditions A1-A3, and 44 is
+B1. The columns are laid out as follows:
+
+    Time required in minutes
+    Ammo
+    Fuel
+    Iron
+    Bauxite
+    Chance for bucket (decimal representation)
